@@ -1,0 +1,68 @@
+body{
+  background-color: #232323;
+  text-transform: uppercase;
+  margin: 0;
+  
+}
+.container{
+  padding-top: 30px;
+  background-color: inherit;
+}
+.square{
+  width: 30%;
+  background: #232323;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20%;
+  transition: background-color 0.9s;
+  -webkit-transition: background-color 0.9s;
+  -moz-transition:background-color 0.9s;
+}
+.container{
+  max-width: 600px;
+  margin: 0 auto;
+}
+h1{
+  color: white;
+  text-align: center;
+  background-color: steelblue;
+  line-height: 1.1;
+  margin: 0;
+  font-weight: normal;
+  padding: 20px 0;
+}
+.navbar{
+  height: 30px;
+  background-color: white;
+  margin: 0;
+  text-align: center;
+}
+.colorPicked{
+  font-size: 200%;
+}
+.alert{
+  display: inline-block;
+  width: 20%;
+}
+button{
+  border-style: none;
+  background-color: white;
+  margin: 0;
+  color: steelblue;
+  height: 100%;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  outline: none;
+}
+button:hover{
+  color: white;
+  background-color: steelblue;
+}
+.selected{
+  background-color: steelblue;
+  color: white;
+}
